@@ -1,0 +1,16 @@
+{
+    "name": "Audio App Development",
+    "image": "mcr.microsoft.com/devcontainers/dotnet:7.0",
+    "features": {
+        "ghcr.io/devcontainers/features/dotnet:1": {},
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csharp",
+                "ms-vscode.powershell"
+            ]
+        }
+    }
+}
